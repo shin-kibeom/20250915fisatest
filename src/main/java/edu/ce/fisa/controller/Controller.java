@@ -9,7 +9,7 @@ public class Controller {
 	
 	@GetMapping("/get")
 	public String getReqRes() {
-		return "get 방식 요청의 응답 데이터 test1!";
+		return "get 방식 요청의 응답 데이터 test1!\n 성공!\n";
 	}
 	
 	@PostMapping("/post")
